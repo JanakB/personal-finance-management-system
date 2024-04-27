@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(32, 33, 36);
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+    align-items: center;
+}
+
+.formEle {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-bottom: 12px;
+}
+
+label {
+    margin-bottom: 4px;
+}
+
+input, select {
+
+    padding: .2em;
+
+    width: 150px; 
+    height: 25px; 
+    margin: 2px; 
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box;
+  }
+
+.wrapper {
+    /* max-width: 800px; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 4em 2em;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.form, .predict {
+    flex: 1;
+}
+
+.predict {
+    background-color: #545d66;
+    border-radius: calc(10px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+}
+
+.btn {
+    width: 320px;
+    padding: .5em 2em;
+    border-radius: 5px;
+    background-color: rgb(7, 99, 173);
+    cursor: pointer;
+}
+
+.group {display: flex; flex-direction: row; gap:1em; align-items: center; justify-content: center;}
